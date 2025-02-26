@@ -47,6 +47,11 @@ header{
         padding-left: 10px;
         padding-right: 30px;
     }
+    nav a:hover{
+        transform: scale(1.05);
+        transition: 0.5s all ease;
+        text-decoration: underline;
+    }
 }
 header h1{
     padding-right: 5px;
@@ -299,6 +304,7 @@ footer p,footer a{
     nav a{
         display: none;
     }
+    
     .accama h1{
         padding-left: 10%;
     }
