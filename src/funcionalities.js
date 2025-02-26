@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     function createParticle() {
         const particle = document.createElement("img");
-        particle.src = "/src/assets/cannabis-leaf-svgrepo-com.svg"; // Ruta de la imagen SVG
+        particle.src = "src/assets/cannabis-leaf-svgrepo-com.svg"; // Ruta de la imagen SVG
         particle.style.position = "absolute";
         particle.style.width = "30px";
         particle.style.height = "30px";
